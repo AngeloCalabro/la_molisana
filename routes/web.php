@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Guest\HomeController;
+use App\Http\Controllers\Guest\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/products', [HomeController::class, 'index'])->name('products.index');
+// Route::get('/products', [HomeController::class, 'index'])->name('products.index');
+
+Route::resource('products', ProductController::class);
 
 

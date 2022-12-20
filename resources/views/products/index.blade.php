@@ -3,7 +3,7 @@
 <section class="container">
     <ul>
         @foreach ($products as $product)
-            <li>{{$product->title}}</li>
+            <li><a href="{{route('products.show', $product->id)}}">{{$product->title}}</a></li>
         @endforeach
     </ul>
 </section>
