@@ -39,15 +39,22 @@ class ProductController extends Controller
     {
         // dd($request->all());
         $formData = $request->all();
-        $newProduct = new Product();
-            $newProduct->title = $formData['title'];
-            $newProduct->description = $formData['description'];
-            $newProduct->type = $formData['type'];
-            $newProduct->image = $formData['image'];
-            $newProduct->cooking_time = $formData['cooking_time'];
-            $newProduct->weight = $formData['weight'];
-            $newProduct->save();
-        return redirect()->route('products.show', ['product'=> $newProduct->id]);
+
+        // $newProduct = new Product();
+        // $newProduct->fill($formData); ////nel caso in cui uso FILLABLE nel Models
+
+            // $newProduct->title = $formData['title'];
+            // $newProduct->description = $formData['description'];
+            // $newProduct->type = $formData['type'];
+            // $newProduct->image = $formData['image'];
+            // $newProduct->cooking_time = $formData['cooking_time'];
+            // $newProduct->weight = $formData['weight'];
+
+            // $newProduct->save();
+
+        $newProduct = Product::create($formData);
+
+        return redirect()->route('products.show', $newProduct->id);
     }
 
     /**
@@ -68,9 +75,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Product $product)
     {
-        //
+        return view('products.edit', compact('product'));
     }
 
     /**
@@ -82,7 +89,19 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $product = Product::find($id);
+
+        $formData = $request->all();
+            $product->title = $formData['title'];
+            $product->description = $formData['description'];
+            $product->type = $formData['type'];
+            $product->image = $formData['image'];
+            $product->cooking_time = $formData['cooking_time'];
+            $product->weight = $formData['weight'];
+
+            $product->update();
+
+        return redirect()->route('products.show', $product->id);
     }
 
     /**
@@ -91,8 +110,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Product $product)
     {
-        //
+        $product->delete();
+        return redirect()->route('products.index');
     }
 }

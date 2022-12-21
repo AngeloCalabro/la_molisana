@@ -1,6 +1,7 @@
 <?php
+
 return [
-    'products' => [
+    'pasta' => [
         [
             "src" => "https://www.lamolisana.it/wp-content/uploads/2021/09/4-spaghetto-quadrato-bucato.jpg",
             "src-h" => "https://www.lamolisana.it/wp-content/uploads/2021/09/4-spaghetto-quadrato-bucato.png",
@@ -142,5 +143,93 @@ return [
             "descrizione" => "Altro elemento cult della famiglia de lo Spaghetto Quadrato (N.1 Spaghetto Quadrato. Una new entry che sarà molto apprezzata sia dai consumatori che dagli chef, perché il Ditale Quadrato è un formato deliziosamente piccolo ma sostanzioso.<br>A dispetto del nome che fa pensare ad una pastina è un formato di pasta assolutamente versatile, adatto a moltissime ricette di primi piatti.<br>La sua consistenza soda si sprigiona in bocca con un'esplosione di emozioni, grazie agli spessori corposi, al colore elegantemente ambrato, alla texture delicatamente ruvida, cangiante e piacevolissima al tatto che trattiene il condimento sulla superficie.<br>Il Ditale Quadrato sembra ideale per preparazioni strutturate come la ricetta con crema di broccoletto siciliano, calamari e pomodori semi secchi profumata al limone e carbone d'olive nere."
         ]
 
+    ],
+    'posts' => [
+        [
+            'title' => 'learn php',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+        [
+            'title' => 'learn js',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+        [
+            'title' => 'learn laravel',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+        [
+            'title' => 'learn php',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+        [
+            'title' => 'learn js',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+        [
+            'title' => 'learn laravel',
+            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos.',
+            'img' => 'https://picsum.photos/400/200'
+        ],
+
+
+    ],
+
+'recipes'=> [
+    [
+    'title'=> "Chilli prawn linguine",
+    'image'=> "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
+    "idMeal"=> "52839",
+    'instructions'=> "Mix the dressing ingredients in a small bowl and season with salt and pepper. Set aside. Cook the pasta according to the packet instructions. Add the sugar snap peas for the last minute or so of cooking time.
+    Meanwhile, heat the oil in a wok or large frying pan, toss in the garlic and chilli and cook over a fairly gentle heat for about 30 seconds without letting the garlic brown. Tip in the prawns and cook over a high heat, stirring frequently, for about 3 minutes until they turn pink.Add the tomatoes and cook, stirring occasionally, for 3 minutes until they just start to soften. Drain the pasta and sugar snaps well, then toss into the prawn mixture. Tear in the basil leaves, stir, and season with salt and pepper.Serve with salad leaves drizzled with the lime dressing, and warm crusty bread.",
+    ],
+    [
+    'title'=> "Fettuccine Alfredo",
+    'image'=> "https://www.themealdb.com/images/media/meals/0jv5gx1661040802.jpg",
+    "idMeal"=> "53064",
+    'instructions'=> "Mix the dressing ingredients in a small bowl and season with salt and pepper. Set aside.Cook the pasta according to the packet instructions. Add the sugar snap peas for the last minute or so of cooking time.Meanwhile, heat the oil in a wok or large frying pan, toss in the garlic and chilli and cook over a fairly gentle heat for about 30 seconds without letting the garlic brown. Tip in the prawns and cook over a high heat, stirring frequently, for about 3 minutes until they turn pink.Add the tomatoes and cook, stirring occasionally, for 3 minutes until they just start to soften. Drain the pasta and sugar snaps well, then toss into the prawn mixture. Tear in the basil leaves, stir, and season with salt and pepper. Serve with salad leaves drizzled with the lime dressing, and warm crusty bread.",
+    ],
+    [
+    'title'=> "Grilled Mac and Cheese Sandwich",
+    'image'=> "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg",
+    "idMeal"=> "52829",
+    'instructions'=> "Make the mac and cheese1. Bring a medium saucepan of generously salted water (you want it to taste like seawater) to a boil. Add the pasta and cook, stirring occasionally, until al dente, 8 to 10 minutes, or according to the package directions. The pasta should be tender but still chewy.\r\n2. While the pasta is cooking, in a small bowl, whisk together the flour, mustard powder, garlic powder, salt, black pepper, and cayenne pepper.\r\n3. Drain the pasta in a colander. Place the empty pasta pan (no need to wash it) over low heat and add the butter. When the butter has melted, whisk in the flour mixture and continue to cook, whisking frequently, until the mixture is beginning to brown and has a pleasant, nutty aroma, about 1 minute. Watch carefully so it does not scorch on the bottom of the pan.\r\n4. Slowly whisk the milk and cream into the flour mixture until everything is really well combined. Cook, whisking constantly, until the sauce is heated through and just begins to thicken, about 2 minutes. Remove from the heat. Gradually add the cheese while stirring constantly with a wooden spoon or silicone spatula and keep stirring until the cheese has melted into the sauce. Then stir in the drained cooked pasta.\r\n5. Line a 9-by-13-inch (23-by-33-centimeter) rimmed baking sheet with parchment paper or aluminum foil. Coat the paper or foil with nonstick cooking spray or slick it with butter. Pour the warm mac and cheese onto the prepared baking sheet and spread it evenly with a spatula. Coat another piece of parchment paper with cooking spray or butter and place it, oiled or buttered side down, directly on the surface of the mac and cheese. Refrigerate until cool and firm, about 1 hour.Make the grilled cheese\r\n6. Heat a large cast-iron or nonstick skillet over medium-low heat.\r\n7. In a small bowl, stir together the 4 tablespoons (55 grams) butter and garlic powder until well blended.\r\n8. Remove the mac and cheese from the refrigerator and peel off the top layer of parchment paper. Carefully cut into 8 equal pieces. Each piece will make 1 grilled mac and cheese sandwich. (You can stash each individual portion in a double layer of resealable plastic bags and refrigerate for up to 3 days or freeze it for up to 1 month.)\r\n9. Spread 3/4 teaspoon garlic butter on one side of each bread slice. Place half of the slices, buttered-side down, on a clean cutting board. Top each with one slice of Cheddar, then 1 piece of the mac and cheese. (Transfer from the baking sheet by scooting your hand or a spatula under each piece of mac and cheese and then flipping it over onto a sandwich.) Place 1 slice of Jack on top of each. Finish with the remaining bread slices, buttered-side up.\r\n10. Using a wide spatula, place as many sandwiches in the pan as will fit without crowding it. Cover and cook until the bottoms are nicely browned, about 4 minutes. Turn and cook until the second sides are browned, the cheese is melted, and the mac and cheese is heated through, about 4 minutes more.\r\n11. Repeat with the remaining ingredients. Cut the sandwiches in half, if desired, and serve.",
+    ],
+    [
+    'title'=> "Lasagna Sandwiches",
+    'image'=> "https://www.themealdb.com/images/media/meals/xr0n4r1576788363.jpg",
+    "idMeal"=> "52987",
+    'instructions'=> "1. In a small bowl, combine the first four ingredients; spread on four slices of bread. Layer with bacon, tomato and cheese; top with remaining bread.2. In a large skillet or griddle, melt 2 tablespoons butter. Toast sandwiches until lightly browned on both sides and cheese is melted, adding butter if necessary.Nutrition Facts\r\n1 sandwich=> 445 calories, 24g fat (12g saturated fat), 66mg cholesterol, 1094mg sodium, 35g carbohydrate (3g sugars, 2g fiber), 21g protein.",
+    ],
+    [
+    'title'=> "Lasagne",
+    'image'=> "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
+    "idMeal"=> "52844",
+    'instructions'=> "Heat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins until starting to turn golden. Add the onion, celery and carrot, and cook over a medium heat for 5 mins, stirring occasionally, until softened.\r\nAdd the garlic and cook for 1 min, then tip in the mince and cook, stirring and breaking it up with a wooden spoon, for about 6 mins until browned all over.\r\nStir in the tomato purée and cook for 1 min, mixing in well with the beef and vegetables. Tip in the chopped tomatoes. Fill each can half full with water to rinse out any tomatoes left in the can, and add to the pan. Add the honey and season to taste. Simmer for 20 mins.\r\nHeat oven to 200C/180C fan/gas 6. To assemble the lasagne, ladle a little of the ragu sauce into the bottom of the roasting tin or casserole dish, spreading the sauce all over the base. Place 2 sheets of lasagne on top of the sauce overlapping to make it fit, then repeat with more sauce and another layer of pasta. Repeat with a further 2 layers of sauce and pasta, finishing with a layer of pasta.\r\nPut the crème fraîche in a bowl and mix with 2 tbsp water to loosen it and make a smooth pourable sauce. Pour this over the top of the pasta, then top with the mozzarella. Sprinkle Parmesan over the top and bake for 25–30 mins until golden and bubbling. Serve scattered with basil, if you like.",
+    ],
+    [
+    'title'=> "Pilchard puttanesca",
+    'image'=> "https://www.themealdb.com/images/media/meals/vvtvtr1511180578.jpg",
+    "idMeal"=> "52837",
+    'instructions'=> "Cook the pasta following pack instructions. Heat the oil in a non-stick frying pan and cook the onion, garlic and chilli for 3-4 mins to soften. Stir in the tomato purée and cook for 1 min, then add the pilchards with their sauce. Cook, breaking up the fish with a wooden spoon, then add the olives and continue to cook for a few more mins.Drain the pasta and add to the pan with 2-3 tbsp of the cooking water. Toss everything together well, then divide between plates and serve, scattered with Parmesan.",
+    ],
+    [
+    'title'=> "Spaghetti alla Carbonara",
+    'image'=> "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    "idMeal"=> "52982",
+    'instructions'=> "STEP 1\r\nPut a large saucepan of water on to boil.STEP 2\r\nFinely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.STEP 3\r\nBeat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.STEP 4\r\nAdd 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).STEP 5\r\nSquash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.STEP 6\r\nWhile the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.STEP 7\r\nLeave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.STEP 8\r\nKeep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.STEP 9\r\nMix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.STEP 10\r\nTake the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.STEP 11\r\nAdd extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed.STEP 12\r\nUse a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.",
+    ],
+    [
+    'title'=> "Venetian Duck Ragu",
+    'image'=> "https://www.themealdb.com/images/media/meals/qvrwpt1511181864.jpg",
+    "idMeal"=> "52838",
+    'instructions'=> "Heat the oil in a large pan. Add the duck legs and brown on all sides for about 10 mins. Remove to a plate and set aside. Add the onions to the pan and cook for 5 mins until softened. Add the garlic and cook for a further 1 min, then stir in the cinnamon and flour and cook for a further min. Return the duck to the pan, add the wine, tomatoes, stock, herbs, sugar and seasoning. Bring to a simmer, then lower the heat, cover with a lid and cook for 2 hrs, stirring every now and then.\r\nCarefully lift the duck legs out of the sauce and place on a plate – they will be very tender so try not to lose any of the meat. Pull off and discard the fat, then shred the meat with 2 forks and discard the bones. Add the meat back to the sauce with the milk and simmer, uncovered, for a further 10-15 mins while you cook the pasta.\r\nCook the pasta following pack instructions, then drain, reserving a cup of the pasta water, and add the pasta to the ragu. Stir to coat all the pasta in the sauce and cook for 1 min more, adding a splash of cooking liquid if it looks dry. Serve with grated Parmesan, if you like."
     ]
+
+    ]
+
 ];
